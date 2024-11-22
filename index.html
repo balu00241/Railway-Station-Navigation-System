@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Railway Station Navigation System</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Navigation For Railway Station Facilities</h1>
+        <nav>
+            <ul>
+                <li><a href="#map">Map</a></li>
+                <li><a href="#facilities">Facilities</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="map">
+            <h2>Station Navigation Map</h2>
+            <div id="mapid">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10774.2681771898!2d78.5285661!3d17.439586!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb97e7d8bb5153:0xd5e4a9931c1d6582!2sSecunderabad%20Junction!5e1!3m2!1sen!2sin!4v1697564300000!5m2!1sen!2sin"
+
+                    width="1700" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <section id="facilities">
+            <h2>Our Facilities</h2>
+            <button
+                onclick="window.location.href='https://www.google.com/maps/place/Secunderabad+Junction/@17.4337454,78.4970681,675m/data=!3m1!1e3!4m10!1m2!2m1!1splatform+secunderabad+railway+station!3m6!1s0x3bcb9a213de9c7b7:0x957c784f25ea95aa!8m2!3d17.4337454!4d78.5015742!15sCiVwbGF0Zm9ybSBzZWN1bmRlcmFiYWQgcmFpbHdheSBzdGF0aW9uWiciJXBsYXRmb3JtIHNlY3VuZGVyYWJhZCByYWlsd2F5IHN0YXRpb26SAQ10cmFpbl9zdGF0aW9umgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVIxYVY5RE56VkJSUkFC4AEA!16s%2Fm%2F03c_c_1?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoJLDEwMjExMjM0SAFQAw%3D%3D'">Platform</button>
+            <button
+                onclick="window.location.href='https://www.google.com/maps/place/Secunderabad+General+And+MMTS+Ticket+Counter/@17.4340599,78.4840239,2700m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3bcb9a21434c97c9:0x9bfa810603b5696e!8m2!3d17.4340403!4d78.502478!16s%2Fg%2F11f2dpz3md?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoJLDEwMjExMjM0SAFQAw%3D%3D'">Ticket Counter</button>
+            <button
+                onclick="window.location.href='https://www.google.com/maps/place/Toilets+Secunderabad+Railway+Station/@17.4339186,78.496264,675m/data=!3m1!1e3!4m10!1m2!2m1!1srestroom+near+Secunderabad+Railway+Station+Road,+Railway+Officer+Colony,+Botiguda,+Bhoiguda,+Secunderabad,+Telangana!3m6!1s0x3bcb9bf59b7ba8d7:0x57f2e7c6b1492d6d!8m2!3d17.4339549!4d78.5030188!15sCnRyZXN0cm9vbSBuZWFyIFNlY3VuZGVyYWJhZCBSYWlsd2F5IFN0YXRpb24gUm9hZCwgUmFpbHdheSBPZmZpY2VyIENvbG9ueSwgQm90aWd1ZGEsIEJob2lndWRhLCBTZWN1bmRlcmFiYWQsIFRlbGFuZ2FuYVpxIm9yZXN0cm9vbSBuZWFyIHNlY3VuZGVyYWJhZCByYWlsd2F5IHN0YXRpb24gcm9hZCByYWlsd2F5IG9mZmljZXIgY29sb255IGJvdGlndWRhIGJob2lndWRhIHNlY3VuZGVyYWJhZCB0ZWxhbmdhbmGSAQ9wdWJsaWNfYmF0aHJvb22aASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUmhlSEJETlY5blJSQULgAQA!16s%2Fg%2F11ff15bw_n?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoJLDEwMjExMjM0SAFQAw%3D%3D'">Restroom</button>
+            <button
+                onclick="window.location.href='https://www.google.com/maps/search/food+court+near+Secunderabad+Railway+Station+Road,+Railway+Officer+Colony,+Botiguda,+Bhoiguda,+Secunderabad,+Telangana/@17.433716,78.4994371,675m/data=!3m2!1e3!4b1?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoJLDEwMjExMjM0SAFQAw%3D%3D'">Food Court</button></section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any inquiries or need support, don't hesitate to contact us:</p>
+            <p>Email: Majjikakeerthana@gmail.com</p>
+            <p>Phone: +91 7731858845</p>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Welcome to the Railway Station Navigation System! We are dedicated to making your travel experience more convenient and hassle-free. Our system is designed to assist passengers in navigating through railway stations efficiently, providing real-time guidance to essential facilities such as ticket counters, waiting areas, restrooms, food stalls, and more.</p>
+            <p>With user-friendly features and interactive maps, our platform aims to reduce confusion, save time, and ensure that you have a seamless journey through the station. Whether you're a frequent traveler or a first-time visitor, our goal is to make your experience at the railway station as smooth and enjoyable as possible.</p>
+            <p>Thank you for choosing us to guide you on your travels. Safe journey!</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Railway Station Navigation. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
