@@ -43,7 +43,7 @@ We welcome contributions! If you'd like to contribute to the project, please for
 
 ## Contact
 If you have any inquiries or need support, feel free to reach out to us:
-- Email: [your-email@example.com]
+- Email: [Majjikakeerthana@gmail.com]
 - GitHub Issues: [Link to the issues page of the repository]
 
 ## License
