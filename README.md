@@ -43,8 +43,7 @@ We welcome contributions! If you'd like to contribute to the project, please for
 
 ## Contact
 If you have any inquiries or need support, feel free to reach out to us:
-- Email: [Majjikakeerthana@gmail.com]
-- GitHub Issues: [Link to the issues page of the repository]
+- Email: Majjikakeerthana@gmail.com
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
